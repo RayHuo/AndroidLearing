@@ -26,6 +26,10 @@
             android:name="com.example.androidlearning.SecondActivity"
             android:label="@string/title_activity_second" >
         </activity>
+        <activity
+            android:name="com.example.androidlearning.SQLiteActivity"
+            android:label="@string/title_activity_sqlite" >
+        </activity>
     </application>
 
 </manifest>

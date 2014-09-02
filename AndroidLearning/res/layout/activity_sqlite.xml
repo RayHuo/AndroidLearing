@@ -1,0 +1,41 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.androidlearning.SQLiteActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/insertButton"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_x="42dp"
+        android:layout_y="80dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_x="42dp"
+        android:layout_y="150dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/modifyButton"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_x="42dp"
+        android:layout_y="220dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/queryButton"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_x="42dp"
+        android:layout_y="290dp"
+        android:text="Button" />
+
+</AbsoluteLayout>

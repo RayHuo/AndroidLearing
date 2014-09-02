@@ -38,7 +38,7 @@ public class SecondActivity extends Activity {
 			text.setText(info);
 		}
 		
-		InputText = (EditText)findViewById(R.id.editText);	
+		InputText = (EditText)findViewById(R.id.editText);
 		
 		backButton = (Button)findViewById(R.id.backButton);
 		backButton.setText("Back to Main");
@@ -47,11 +47,11 @@ public class SecondActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				final String backText = InputText.getText().toString();	 // only here works as expected
+				final String backText = InputText.getText().toString();
 				Intent backIntent = new Intent(SecondActivity.this, MainActivity.class);
 				backIntent.setAction(Intent.ACTION_SEND);
-				backIntent.setType("text/plain");
 				backIntent.putExtra(Intent.EXTRA_TEXT, backText);
+				backIntent.setType("text/plain");
 				startActivity(backIntent);
 			}
 			

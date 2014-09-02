@@ -40,7 +40,7 @@ public class MainActivity extends Activity {
 			text.setText(info);
 		
 		InputText = (EditText)findViewById(R.id.InputEditText);
-			
+		
 		secondButton = (Button)findViewById(R.id.SecondButton);
 		secondButton.setText("send to Second");
 		secondButton.setOnClickListener(new Button.OnClickListener() {
@@ -48,7 +48,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				final String text2 = InputText.getText().toString();  // only here works as expected
+				final String text2 = InputText.getText().toString();
 				Intent gotoSecond = new Intent(MainActivity.this, SecondActivity.class);
 				gotoSecond.setAction(Intent.ACTION_SEND);
 				gotoSecond.putExtra(Intent.EXTRA_TEXT, text2);
