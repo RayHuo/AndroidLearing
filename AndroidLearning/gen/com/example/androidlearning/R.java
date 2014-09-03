@@ -29,7 +29,7 @@ public final class R {
         public static final int InputEditText=0x7f080004;
         public static final int SecondButton=0x7f080003;
         public static final int SqliteButton=0x7f080002;
-        public static final int action_settings=0x7f08000c;
+        public static final int action_settings=0x7f08000e;
         public static final int backButton=0x7f080006;
         public static final int container=0x7f080000;
         public static final int deleteButton=0x7f080009;
@@ -37,7 +37,9 @@ public final class R {
         public static final int insertButton=0x7f080008;
         public static final int modifyButton=0x7f08000a;
         public static final int queryButton=0x7f08000b;
+        public static final int spinner01=0x7f08000c;
         public static final int textView=0x7f080005;
+        public static final int textView01=0x7f08000d;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
